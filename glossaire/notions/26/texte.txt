@@ -1,0 +1,12 @@
+L'intégration est une manière de concevoir des dispositifs, relative à la quantité de fonctions qu'un dispositif est en mesure d'assumer. Initialement rattaché à l'électronique et à la conception de circuits imprimés, le terme s'est ensuite élargi par glissement pour désigner un objet complexe, dans lequel un grand nombre de pièces ou de composants électroniques sont inclus (un circuit intégré, par exemple, comprend un nombre important de composants sur une carte de taille très réduite, permettant d'exécuter beaucoup de fonctions).
+En ce qui concerne les objets, l'intégration est un phénomène à double-tranchant. S'il permet une aisance d'usage, une polyvalence et une portabilité des dispositifs (pensons par exemple à nos smartphones, objets intégrés s'il en est), il complexifie largement la conception des objets, et, par effet de conséquence, leur démontabilité, leur réparabilité, la récupération ou le recyclage de leurs organes en fin de vie, et la compréhension que les individus peuvent avoir de leur fonctionnement. La conception intégrée d'un objet peut alors conduire à un phénomène paradoxal, bien relevé par Christopher Santerre dans le second podcast : la cherté des objets, autrefois proportionnelle à leur robustesse ou à leur caractère luxueux, n'en est plus une assurance. On peut ainsi aboutir à des objets chers, polyvalents, haut-de-gamme par leur prix et leurs fonctions, mais dont la durée de vie est limitée et la réparation impossible en fin de vie. Une sorte de jetable de luxe, en somme.
+
+
+{L’outil simple, pauvre, transparent, est un humble serviteur ; l’outil élaboré, complexe, secret, est un maître arrogant.}
+
+ILLICH, Ivan, 2021. {La convivialité}. Paris : Éditions du Seuil
+
+
+{Les AirPods, c’est un chef d’oeuvre de simplicité de dessin, mais le ratio simplicité de dessin par rapport à la complexité d'ingénierie, ça ne sert pas du tout l’enjeu de durabilité. Les AirPods, c’est des produits jetables. Tu as un tel niveau d’intégration, entre les capteurs, els miocros, la batterie, les haut-parleurs, tout ça dans quelques grammes de matière… C’est irréparable. C’est des produits jetables. Apple a réussi à faire du jetable de luxe.}
+
+Christopher Santerre - troisième épisode

@@ -1,0 +1,50 @@
+1 - Activité non-marchande
+2 - Agency
+3 - Besoins artificiels
+4 - Boîte noire technologique
+5 - Bricolage
+6 - Capital Culturel
+7 - Certifications
+8 - Chose
+9 - Confort
+10 - Consumérisme
+11 - Coût d’usage
+12 - Déchet / Hyperobjet
+13 - Décroissance
+14 - Démontage
+15 - Désirabilité
+16 - Durabilité
+17 - Économie circulaire
+18 - Économie de la fonctionnalité
+19 - Économie sociale et solidaire
+20 - Éducation populaire
+21 - Esthétique de la durabilité
+22 - Extractivisme
+23 - Gadget
+24 - Garantie
+25 - Héritage
+26 - Intégration
+27 - Lowtech
+28 - Manufacture
+29 - Marketing
+30 - Néophilie
+31 - Objet convivial
+32 - Obsolescence logicielle
+33 - Obsolescence marketing
+34 - Obsolescence technique
+35 - Opensource
+36 - Recyclage
+37 - Refonctionnalisation
+38 - Remanufacturing
+39 - Renouvellement accéléré
+40 - Rentabilité
+41 - Repaircafé
+42 - Réparation
+43 - Rikimbili
+44 - Robustesse
+45 - Sérialité
+46 - Sobriété désirable
+47 - Socialisation
+48 - Transfert de la propriété
+49 - Valeur affective
+50 - Vernaculaire

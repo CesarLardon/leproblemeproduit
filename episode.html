@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>Épisode</title>
+  <!-- 🔑 Balise viewport pour l’adaptation aux écrans -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Bandeau -->
+  <nav class="navbar">
+    <a href="apropos.html">à propos</a>
+    <a href="podcast.html">podcast</a>
+    <a href="glossaire.html">glossaire</a>
+    <a href="bibliographie.html">bibliographie</a>
+  </nav>
+
+  <main class="episode-content">
+    <!-- Colonne gauche : titre + image -->
+    <div id="episode-left">
+      <div id="episode-title" class="episode-title">Chargement...</div>
+      <div id="episode-image-wrap">
+        <img id="episode-image" alt="">
+      </div>
+    </div>
+
+    <!-- Colonne droite : descriptif + player -->
+    <div id="episode-right">
+      <div id="episode-descriptif" class="episode-descriptif">Chargement...</div>
+
+      <div id="episode-player-wrap" class="episode-player-wrap">
+        <div class="player-row">
+          <audio id="episode-audio" controls preload="metadata">
+            Ton navigateur ne supporte pas l'élément audio.
+          </audio>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fallback -->
+    <div id="episode-fallback" hidden>
+      <p>
+        Si le chargement automatique échoue, charge manuellement le dossier de l'épisode depuis ton disque.
+      </p>
+    </div>
+  </main>
+</body>
+</html>

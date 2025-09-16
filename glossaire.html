@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>Glossaire</title>
+  <!-- 🔑 Balise viewport pour l’adaptation aux écrans -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Bandeau -->
+  <nav class="navbar">
+    <a href="apropos.html">à propos</a>
+    <a href="podcast.html">podcast</a>
+    <a href="glossaire.html">glossaire</a>
+    <a href="bibliographie.html">bibliographie</a>
+  </nav>
+
+  <main class="glossaire-content">
+    <h1 class="glossaire-title">Glossaire</h1>
+
+    <div class="glossaire-inner">
+      <div id="glossaire-list" class="glossaire-list">Chargement...</div>
+      <div id="alphabet-nav" class="alphabet-nav" aria-hidden="false"></div>
+    </div>
+
+    <div id="glossaire-fallback" hidden>
+      <p>
+        Si le chargement automatique échoue, charge manuellement les fichiers titre depuis le dossier.
+      </p>
+    </div>
+  </main>
+</body>
+</html>

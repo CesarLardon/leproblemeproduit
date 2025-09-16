@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>Notion</title>
+  <!-- 🔑 Balise viewport pour l’adaptation aux écrans -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Bandeau -->
+  <nav class="navbar">
+    <a href="apropos.html">à propos</a>
+    <a href="podcast.html">podcast</a>
+    <a href="glossaire.html">glossaire</a>
+    <a href="bibliographie.html">bibliographie</a>
+  </nav>
+
+  <main class="notion-content">
+    <!-- Colonne gauche : titre + texte -->
+    <div class="notion-left">
+      <div id="notion-title" class="notion-title">Chargement...</div>
+      <div id="notion-text" class="notion-text"></div>
+    </div>
+
+    <!-- Colonne droite : image + légende -->
+    <aside class="notion-right">
+      <div id="notion-image-wrap">
+        <img id="notion-image" alt="">
+      </div>
+      <div id="notion-legend" class="notion-legend"></div>
+    </aside>
+
+    <!-- Fallback -->
+    <div id="notion-fallback" hidden>
+      <p>
+        Si le chargement automatique échoue, charge manuellement les fichiers (titre/texte/légende/image).
+      </p>
+    </div>
+  </main>
+</body>
+</html>

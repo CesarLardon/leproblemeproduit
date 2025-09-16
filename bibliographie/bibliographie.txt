@@ -1,0 +1,47 @@
+[Ouvrages]
+AGGERI, Franck, BEULQUE, Rémi, MICHEAUX, Helen, 2023. {L’économie circulaire}. Paris : La Découverte, collection Repères économie
+BENELLI, Nathalie, CORTEEL, Delphine, DEBARY, Octave, FLORIN, Bénédicte, LE LAY, Stéphane, RÉTIF, Sophie (collab.), 2017. {Que faire des restes ? Le réemploi dans les sociétés d’accumulation}. Paris : Presses de Sciences Po
+BIHOUIX, Philippe, ARTHUS-BERTRAND, Yann, 2002. {La Terre vue du ciel}. Paris : La Martinière
+BIHOUIX, Philippe, 2014. {L’âge des low-tech, vers une civilisation techniquement soutenable}. Paris : Seuil
+BOSQUÉ, Camille, 2024. {Design pour un monde fini}. Paris : Premier Parallèle
+BOSQUÉ, Camille, 2021. {Open design. Fabrication numérique et mouvement maker}. Paris : Éditions B42
+BRAUNGART, Michael, MCDONOUGH, William, 2011. {Cradle to cradle. Créer et recycler à l'infini}. Paris : Éditions Alternatives
+CARAËS, Marie-Haude, COMTE, Philippe, 2016. Vers un design des flux : l’hybridation des disciplines. Le volet cubain de la recherche : Rikimbili. In : DAUTREY, Jehanne. {Milieux et créativité}. Dijon : Les Presses du Réel, p. 137 - 153
+CELLE, Sylvain, 2018. L’ESS et le design social en situation de crise – un détour par l’innovation sociale. In : {Design écosocial – Convivialités, pratiques situées et nouveaux communs}, DUHEM, Ludovic (dir.) et RABIN, Kenneth (dir.). Dijon : Presses du Réel
+CRAWFORD, Matthew B., 2010. {Éloge du carburateur}. Paris : La Découverte
+DENIS, Jérôme, PONTILLE, David, 2022. {Le soin des choses. Politiques de la maintenance}. Paris : La Découverte
+FORD, Henry, 2008. {My Life and Work. An Autobiography of Henry Ford}, Leipzig, BM Publishing, 2008, p.102-103. cité dans GUIEN, Jeanne, 2025. {Le désir de nouveautés. L’obsolescence au cœur du capitalisme (XVe - XXIe siècles)}. Paris : La Découverte
+GUIEN, Jeanne, 2019. {Le consumérisme à travers ses objets}. Paris : Divergences
+GUIEN, Jeanne, 2025. {Le désir de nouveautés. L’obsolescence au cœur du capitalisme (XVe - XXIe siècles)}. Paris : La Découverte
+HALLAUER, Edith, 2018. Vers un designer permanent. In : {Design écosocial – Convivialités, pratiques situées et nouveaux communs}, DUHEM, Ludovic (dir.) et RABIN, Kenneth (dir.). Dijon : Presses du Réel
+HAMANT, Olivier, 2023. {Antidote au culte de la performance. La robustesse du vivant}. Paris : Gallimard, collection Tracts
+HAJEK, Isabelle, 2021. Récup', glanage, zéro déchet : une nouvelle conception du politique ?, {Géocarrefour}, consulté le 12 mai 2025. url : http://journals.openedition.org/geocarrefour/16302
+HUYGHE, Pierre-Damien, 2011. {Plaidoyer pour une technique hospitalisable}. Paris : VIA
+HUYGHEN, Jean-Marc, 2008. {La poubelle et l’architecte. Vers le réemploi des matériaux}. Arles : Actes Sud
+ILLICH, Ivan, 2021. {La convivialité}. Paris : Éditions du Seuil
+KEUCHEYAN, Razmig, 2019. {Les besoins artificiels}. Paris : La Découverte
+LALLEMENT, Michel, 2015. {L’âge du faire. Hacking, travail, anarchie.}. Paris : Seuil
+LÉGLISE, Fanny, 2020. {La conception par bricolage comme art de la situation : architecture, urbanisme, design. Architecture, aménagement de l'espace.} Université Toulouse Le Mirail - Toulouse II
+LÉVI-STRAUSS, Claude, 1962. {La pensée sauvage}. Paris : Plon
+MADON, Julie, 2024. {Faire durer les objets. Pratiques et ressources dans l’art de déconsommer}. Paris : Presses de Sciences Po
+MICHEL, Aurélie, 2018. Le détournement : infiltrer et dévoyer les circuits de consommation. In : {Design écosocial – Convivialités, pratiques situées et nouveaux communs}, DUHEM, Ludovic (dir.) et RABIN, Kenneth (dir.). Dijon : Presses du Réel
+MORRIS, William, 2023. {Travail utile, fatigue inutile}. Paris : Rivages
+MORTON, Timothy, 2018. {Hyperobjets. Philosophie et écologie après la fin du monde}. Saint-Etienne : Cité du Design
+OROZA, Ernesto, 2009. {Rikimbili}. Saint-Etienne : Cité du Design
+RÉCHARD, Catherine, 2002. {Système P. Bricolage, invention et récupération en prison}. Paris : Éditions Alternatives
+SACRISTE, Valérie (dir.), 2018. {Nos vies, nos objets. Enquêtes sur la vie quotidienne}. Villeneuve-d’Ascq : Presses Universitaires du Septentrion, collection “Le regard sociologique”
+SIMONDON, Gilbert, 2012. {Du mode d’existence des objets technologiques}. Paris : Aubier, collection Philosophie
+THWAITES, Thomas, 2011. {The Toaster Project, or A Heroic Attempt to Build a Simple Electric Appliance from Scratch}. Princeton : Princeton Architectural Press
+
+[Articles]
+BERTRAND, Gwenaëlle, FAVARD, Maxime. 2020. Le design à l’épreuve des déchets manufacturés : un anti-paysage à hériter. {Sciences du Design}. N°11.
+BOUCHARDON, William, 2023. Vers un âge de la maintenance ?. {Socialter}. N°8, pp. 26-29
+DANG, Léa, 2023. Droit à la réparation. {Socialter}. N°8, pp. 36-41
+GAUTIER, Elsa, 2023. Bricoler, un geste politique ?. {Socialter}. N°8, pp. 19-21
+GUÉRINEAU DE LAMÉRIE, Nina, 2023. Sociologie du bricolage. {Socialter}. N°8, pp. 22-24
+GUIEN, Jeanne, RAMIREZ, Violeta, 2017. Travailler à consommer. Expérimentation et émancipation dans les pratiques de consommation alternative. {Terrains & Travaux}, 2017/2 N°31, pp. 45-62
+GUIEN, Jeanne, 2023. « Le “dévendeur” ou l’écologie publicitaire du gouvernement », {Le Club de Mediapart}, 29 novembre 2023. url : https://blogs.mediapart.fr/jeanne-guien/blog/291123/le-devendeur-ou-lecologie-publicitaire-du-gouvernement
+LEDOUX, Clémence, THUILLIER, Benoît, 2006. Du travail domestique masculin au travail domestique des hommes (analyse quantitative). {Terrains & Travaux}, 2006/1 N°10, pp. 56-76
+MONTJARET, Anne, 2014. Objets du genre et genre des objets en ethnologie et sociologie françaises. {Clio} N°40, pp. 153-170
+RASSAT, Fanny, 2017. Consommer local et s’inscrire dans un territoire. Les pratiques de réemploi et de rachat en ressourcerie. {Terrains & Travaux}, 2017/2 N°31, pp. 87-108
+TABET, Paola, 1979. Les mains, les outils, les armes. In {L'Homme}, tome 19, N°3-4, pp. 5-61

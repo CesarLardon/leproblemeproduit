@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>Podcast</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <a href="apropos.html">à propos</a>
+    <a href="podcast.html">podcast</a>
+    <a href="glossaire.html">glossaire</a>
+    <a href="bibliographie.html">bibliographie</a>
+  </nav>
+
+  <main class="podcast-content">
+    <h1 class="podcast-title">Podcast — Épisodes</h1>
+    <div id="podcast-list">Chargement...</div>
+
+    <div id="podcast-fallback" hidden>
+      <p>Si le chargement automatique échoue, tu peux charger manuellement les fichiers titres :</p>
+      <input id="podcast-file-input" type="file" accept=".txt" multiple />
+    </div>
+  </main>
+</body>
+</html>

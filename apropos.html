@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>À propos</title>
+  <!-- 🔑 Balise viewport pour l’adaptation aux écrans -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Bandeau de navigation -->
+  <nav class="navbar">
+    <a href="apropos.html">à propos</a>
+    <a href="podcast.html">podcast</a>
+    <a href="glossaire.html">glossaire</a>
+    <a href="bibliographie.html">bibliographie</a>
+  </nav>
+
+  <main class="apropos-content">
+    <div id="apropos-text">Chargement...</div>
+
+    <div id="apropos-fallback" hidden>
+      <p>
+        Si le chargement automatique échoue, sélectionne manuellement les fichiers :
+      </p>
+      <input id="apropos-file-input" type="file" accept=".txt" multiple />
+    </div>
+  </main>
+</body>
+</html>

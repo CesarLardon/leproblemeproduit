@@ -1,0 +1,15 @@
+L’objet convivial est l’antonyme de la boîte noire technologique. Simple et robuste de conception, il se distingue par son caractère démontable, réparable, modifiable, et aisément compréhensible par ses utilisateurices. Son fonctionnement est transparent et intuitif, il offre un niveau de réponse abouti et mature à la fonction pour laquelle il a été conçu. Par ce fait, sa conception intègre un niveau faible de complexité, et répond à un nombre restreint de fonctions, quand il n’en honore pas qu’une seule. Mais ce qu’il fait, il le fait bien, avec simplicité. Sa démontabilité et sa transparence peuvent permettre à l’utilisateurice de le démonter, de changer ses pièces, voire d’améliorer sa conception si l’occasion se présente. Introduite par le philosophe Ivan Illich, la notion d’objet convivial s’oppose à la notion d’objet complexe, et peut être rattachée à la définition des biens émancipés que donne le sociologue Razmig Keucheyan. Derrière ces idées d’émancipation et de convivialité se dessine une relation de proximité, de collaboration et d’ouverture à l’endroit des objets que nous fréquentons, pour qu’ils ne soient plus des assistants discrets, mais aussi des camarades que nous connaissons, et dont nous prenons soin.
+
+
+{Robustesse, démontabilité, interopérabilité et évolution. Ces quatre caractéristiques des biens émancipés tendent vers un même but : que les objets nous paraissent moins inscrutables.}
+
+KEUCHEYAN, Razmig, 2019. {Les besoins artificiels}. Paris : La Découverte
+
+{J'appelle société conviviale une société où l'outil moderne est au service de la personne intégrée à la collectivité, et non au service d'un corps de spécialistes. Conviviale est la société où l'homme contrôle l'outil.}
+
+ILLICH, Ivan, 2021. {La convivialité}. Paris : Éditions du Seuil
+
+
+{Si on prend un accumulateur d’ordinateur portable, le dernier que j’ai dû démonter pour vérifier quelle était la cellule défaillante à l’intérieur du pack d’accus, il a fallu découper le boîtier, compte tenu du fait qu’il était collé par ultrasons. Donc tout le pourtour fait que le bloc est véritablement inaccessible.}
+
+Luc Moreau - deuxième épisode

@@ -1,0 +1,599 @@
+/* -------------------------------------------
+   Font-face : assure-toi que ces .otf sont
+   bien présents dans Site mémoire/Typos/
+   ------------------------------------------- */
+@font-face {
+  font-family: "HalenoirCompact-Bold";
+  src: url("Typos/HalenoirCompact-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "HalenoirCompact-DemiBold";
+  src: url("Typos/HalenoirCompact-DemiBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "HalenoirCompact-Medium";
+  src: url("Typos/HalenoirCompact-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "HalenoirCompact-RegularObl";
+  src: url("Typos/HalenoirCompact-RegularObl.otf") format("opentype");
+}
+@font-face {
+  font-family: "HalenoirCompact-Regular";
+  src: url("Typos/HalenoirCompact-Regular.otf") format("opentype");
+}
+
+/* Variables */
+:root{
+  --nav-height: 48px;
+  --page-padding: 40px;
+}
+
+/* Reset */
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background: rgb(255, 255, 255); /* page d'accueil par défaut (les autres pages have their own background) */
+  color: white;
+  font-family: "HalenoirCompact-Regular", sans-serif;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+/* -----------------------
+   Bandeau (identique partout)
+   ----------------------- */
+.navbar{
+  position:fixed;
+  top:0; left:0;
+  width:100%;
+  height:var(--nav-height);
+  background:white;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  z-index:1000;
+  padding:8px 12px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+}
+.navbar a{
+  text-decoration:none;
+  color:black;
+  font-family: "HalenoirCompact-DemiBold", sans-serif; /* NAV en Medium */
+  font-size:16px;
+  transition: transform .18s ease;
+}
+.navbar a:hover{ transform: scale(1.12); }
+
+/* -----------------------
+   Accueil (diaporama + titre)
+   ----------------------- */
+.slideshow{
+  position:fixed;
+  top:0; left:0;
+  width:100%;
+  height:100vh;
+  z-index:1;
+  overflow:hidden;
+  background:black;
+}
+.slideshow img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  opacity:0;
+  transition:opacity 1s ease;
+}
+.slideshow img.active{ opacity:1; }
+
+/* Titre central : utilise HalenoirCompact-Bold (demandé) */
+.overlay-text{
+  position:absolute;
+  top:41%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-family:"HalenoirCompact-Bold", sans-serif;
+  font-size:90pt;
+  color: white;
+  mix-blend-mode: difference; /* effet négatif */
+  z-index:2;
+  white-space:nowrap;
+  pointer-events:none;
+}
+
+.overlay-title{
+  position:absolute;
+  top:53%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-family:"HalenoirCompact-DemiBold", sans-serif;
+  font-size:40pt;
+  color: white;
+  mix-blend-mode: difference;
+  z-index:2;
+  white-space:nowrap;
+  pointer-events: none;
+}
+
+.overlay-title2{
+  position:absolute;
+  top:63%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-family:"HalenoirCompact-DemiBold", sans-serif;
+  font-size:40pt;
+  color: white;
+  mix-blend-mode: difference;
+  z-index:2;
+  white-space:nowrap;
+  pointer-events: none;
+}
+
+/* ==== ACCUEIL — fix overlay responsive (mobile & tablette) ==== */
+@media (max-width: 768px){
+  .overlay-text,
+  .overlay-title,
+  .overlay-title2{
+    max-width: 220vw;
+    white-space: normal;          /* << stop au dépassement */
+    overflow-wrap:normal;      /* casse les très longs mots */
+    text-align: center;
+    line-height: 1.02;
+  }
+
+  /* tailles: <= 90pt / 40pt, mais adaptatives via vw */
+  .overlay-text{
+    font-size: clamp(28px, 10vw, 90pt);
+    top: 25vh;                    /* espacement vertical sûr */
+    transform: translate(-50%, -50%);
+  }
+  .overlay-title{
+    font-size: clamp(18px, 6vw, 40pt);
+    top: 45vh;
+    transform: translate(-50%, -50%);
+  }
+  .overlay-title2{
+    font-size: clamp(18px, 6vw, 40pt);
+    top: 60vh;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* Petits téléphones */
+@media (max-width: 420px){
+  .overlay-text{  font-size: clamp(22px, 9.5vw, 90pt); top: 36vh; }
+  .overlay-title{ font-size: clamp(16px, 6.5vw, 40pt); top: 60vh; }
+  .overlay-title2{font-size: clamp(16px, 6.5vw, 40pt); top: 76vh; }
+}
+
+/* -----------------------
+   Bibliographie (fond blanc, texte noir)
+   ----------------------- */
+
+.bibliographie-content{
+  background: white;   /* fond blanc */
+  padding: 1cm var(--page-padding) 10px; /* 1 cm en haut, le reste inchangé */
+  color: rgb(0, 0, 0);        /* texte noir */
+  min-height: 100vh;
+  font-family: "HalenoirCompact-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  white-space: pre-wrap; /* conserver retours d'origine */
+  max-width: 40%;
+  margin-left: calc((62% - 61%)/2); /* center-ish while keeping left-justified text */
+  text-align: left;
+
+}
+
+/* Titres extraits de [ ... ] : DemiBold demandé */
+.bibliographie-content .demibold{
+  font-family: "HalenoirCompact-Bold", sans-serif;
+  font-size: 40px;
+  margin: 0px 0 0px;
+  color: black;
+}
+
+/* Inline italic zones { ... } -> RegularObl (inline, pas de saut) */
+.bibliographie-content .obl{
+  font-family: "HalenoirCompact-RegularObl", sans-serif;
+  font-style: oblique;
+  color: black;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fallback styling for file input area (hidden by default) */
+.biblio-fallback { margin-top:18px; color:#ffffff; }
+
+/* -----------------------
+   À propos (fond blanc, texte noir)
+   ----------------------- */
+.apropos-content{
+  padding: calc(var(--nav-height) + 0px) var(--page-padding) 80px;
+  background: white;
+  color: black;
+  min-height: 100vh;
+  max-width: 41%;
+  text-align: left;
+  font-family: "HalenoirCompact-Regular", sans-serif;
+  white-space: pre-wrap; /* conserve retours */
+}
+
+/* Titres sur page à propos : Bold (un peu plus grands) */
+.apropos-content .apropos-title{
+  font-family: "HalenoirCompact-Bold", sans-serif;
+  font-size: 40px; /* augmenté */
+  margin: 0px 0 20px;
+  color: black;
+}
+
+/* Paragraphes (texte) à propos */
+.apropos-content .apropos-block{
+  font-family: "HalenoirCompact-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0px 0 20px;
+  max-width: 900px;
+  color: black;
+  text-align:left;
+}
+
+/* -----------------------
+   PODCAST : menu
+   ----------------------- */
+.podcast-content{
+  padding: calc(var(--nav-height) + 40px) var(--page-padding);
+  background: white;
+  color: black;
+  min-height: 100vh;
+  font-family: "HalenoirCompact-Regular", sans-serif;
+}
+.podcast-title{
+  font-family: "HalenoirCompact-DemiBold", sans-serif;
+  font-size: 40px;
+  margin: 10px 0 20px;
+  color: black;
+}
+/* preserve newlines in podcast titles */
+#podcast-list{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+.podcast-item{
+  font-family: "HalenoirCompact-DemiBold", sans-serif;
+  font-size: 20px;
+  color: black;
+  text-decoration:none;
+  padding: 10px 6px;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  white-space: pre-wrap; /* <-- respect line breaks from titreN.txt */
+}
+.podcast-item:hover{ background: rgba(0,0,0,0.02); }
+
+/* Episode page layout: 2x2 grid so we can place left-top (title), left-bottom (image),
+   right-top (descriptif), right-bottom (player) */
+.episode-content {
+  padding: calc(var(--nav-height) + 40px) var(--page-padding);
+  background: white;
+  min-height: calc(100vh - var(--nav-height));
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  color: black;
+}
+
+/* Left column container spans both rows */
+#episode-left {
+  grid-column: 1 / 2;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 12px;
+}
+
+/* Title in top-left (preserve line breaks) */
+.episode-title {
+  font-family: "HalenoirCompact-DemiBold", sans-serif;
+  font-size: 30px;
+  margin: 0;
+  padding: 6px;
+  align-self: start;
+  color: black;
+  white-space: pre-wrap; /* preserve linebreaks from titre.txt */
+}
+
+/* small pieces inside <> are smaller */
+.episode-title .title-small {
+  font-size: 0.65em;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* image wrapper in bottom-left */
+#episode-image-wrap {
+  align-self: end;
+  overflow: hidden;
+}
+#episode-image {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Right column */
+.episode-right {
+  grid-column: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* descriptif: top-right */
+.episode-descriptif {
+  font-family: "HalenoirCompact-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 65%;
+  text-align: left; /* left-justified as requested */
+  white-space: pre-wrap; /* preserve original line breaks */
+  color: black;
+  margin-top: 170px; /* ~140px from top of page */
+}
+
+/* Player area: bottom-right */
+.episode-player-wrap {
+  margin-top: 200px; /* ~100px under the text */
+  width: 65%;
+}
+.player-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.player-row audio {
+  flex: 1;
+  width: 100%;
+}
+
+
+/* -----------------------
+   GLOSSAIRE : menu (scrollable list) with alphabet nav on right
+   ----------------------- */
+.glossaire-content{
+  padding: calc(var(--nav-height) + 30px) var(--page-padding);
+  font-family: "HalenoirCompact-Demibold";
+  font-size: 20px;
+  background: white;
+  min-height: 100vh;
+  color: rgb(0, 0, 0);
+}
+/* wrapper to hold list + alphabet */
+.glossaire-inner{
+  display:flex;
+  gap: 16px;
+  align-items:flex-start;
+}
+/* list itself */
+.glossaire-list{
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+  display:flex;
+  flex-direction:column;
+  flex:1;
+}
+/* alphabet nav fixed height equal to list area */
+.alphabet-nav{
+  width: 40px;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:center;
+  gap:6px;
+  padding-top:6px;
+  position: sticky;
+  top: calc(var(--nav-height) + 16px);
+  height: calc(100vh - 200px);
+  background: white;
+}
+.alphabet-nav .alpha-letter{
+  font-family: "HalenoirCompact-DemiBold", sans-serif;
+  font-size: 15px;
+  cursor:pointer;
+  user-select:none;
+  color: black;
+}
+.alphabet-nav .alpha-letter:hover{ background: rgba(0,0,0,0.03); }
+
+/* entries */
+.glossaire-entry{
+  font-family: "HalenoirCompact-DemiBold", sans-serif;
+  font-size: 30px;
+  padding: 12px 6px;
+  border-bottom: 0px solid rgba(0,0,0,0.06);
+  color: black;
+  text-decoration: none;
+}
+.glossaire-entry:hover{ background: rgba(0,0,0,0.02); }
+
+/* -----------------------
+   NOTION page layout
+   - left = title + text (max 50% width)
+   - right = image + legend (occupies half)
+   ----------------------- */
+.notion-content{
+  padding: calc(var(--nav-height) + 52px) var(--page-padding);
+  background: white;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 50% / 50% */
+  gap: 24px;
+  color: black;
+}
+.notion-title{
+  font-family: "HalenoirCompact-Bold", sans-serif;
+  font-size: 30px; /* plus gros */
+  margin-bottom: 16px;
+  color: black;
+}
+.notion-text{
+  font-family: "HalenoirCompact-Regular", sans-serif;
+  font-size: 16px; /* augmenté à ~20 */
+  line-height: 1.6;
+  white-space: pre-wrap; /* respecter retours */
+  max-width: 70%;
+  color: black;
+}
+/* inline oblique spans inside notion text */
+.notion-text .obl{ font-family:"HalenoirCompact-RegularObl",sans-serif; }
+
+/* right side image and legend */
+.notion-right img{ width:100%; height:auto; display:block; object-fit:cover; }
+.notion-legend{
+  font-family: "HalenoirCompact-Regular", sans-serif;
+  font-size: 12px; /* 7-8 demandé */
+  margin-top: 6px;
+  white-space: pre-wrap;
+  color: black;
+}
+.notion-legend .obl{ font-family:"HalenoirCompact-RegularObl",sans-serif; }
+
+/* small helpers */
+.hidden{ display:none; }
+
+/* -------------------------------------------------------------------
+   Responsive adjustments
+   These media queries adapt the layout and typography to various screen
+   sizes (desktops, tablets et smartphones). They preserve the existing
+   desktop structure but improve usability on smaller devices.
+   ------------------------------------------------------------------- */
+
+/* Reduce overlay sizes on medium screens */
+@media (max-width: 1024px) {
+  .overlay-text {
+    font-size: 70pt;
+  }
+  .overlay-title,
+  .overlay-title2 {
+    font-size: 32pt;
+  }
+}
+
+/* Additional reductions on tablets */
+@media (max-width: 768px) {
+  .overlay-text {
+    /* Réduire davantage pour éviter le débordement sur tablette */
+    font-size: 45pt;
+  }
+  .overlay-title,
+  .overlay-title2 {
+    font-size: 24pt;
+  }
+
+  /* À propos page: use full width on small devices */
+  .apropos-content {
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  /* Podcast page: reduce title and item sizes on small screens */
+  .podcast-title {
+    font-size: 32px;
+  }
+  .podcast-item {
+    font-size: 16px;
+  }
+
+  /* Episode page: switch to vertical stacking on small screens */
+  .episode-content {
+    display: flex;
+    flex-direction: column;
+    padding: calc(var(--nav-height) + 20px) var(--page-padding);
+  }
+  #episode-left,
+  .episode-right {
+    width: 100%;
+    max-width: 100%;
+  }
+  /* full width image on small devices */
+  #episode-image-wrap {
+    width: 100%;
+  }
+  #episode-image {
+    width: 100%;
+    height: auto;
+  }
+  /* remove large margins and restrictions */
+  .episode-descriptif {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .episode-player-wrap {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  /* Glossaire: reduce text size and adjust spacing on small devices */
+  .glossaire-content {
+    font-size: 16px;
+  }
+  .glossaire-inner {
+    gap: 8px;
+  }
+  /* Give the alphabet nav a flexible gap to the right edge */
+  .alphabet-nav {
+    margin-right: 3vw;
+  }
+
+  /* Notion page: stack columns vertically on small screens */
+  .notion-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .notion-title,
+  .notion-text,
+  .notion-right img,
+  .notion-legend {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  /* Bibliographie: allow full width on small devices */
+  .bibliographie-content {
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+/* Further reductions for very small screens (phones) */
+@media (max-width: 480px) {
+  /* Sur les très petits écrans, utilise des unités relatives (vw) pour que
+     la taille du titre s'adapte à la largeur de l'écran et n'empiète pas */
+  .overlay-text {
+    font-size: 12vw;
+  }
+  .overlay-title,
+  .overlay-title2 {
+    font-size: 8vw;
+  }
+
+  .podcast-title {
+    font-size: 28px;
+  }
+  .podcast-item {
+    font-size: 14px;
+  }
+
+  /* Tweak glossaire spacing further on very small screens */
+  .glossaire-inner {
+    gap: 4px;
+  }
+  .alphabet-nav {
+    margin-right: 2vw;
+  }
+}

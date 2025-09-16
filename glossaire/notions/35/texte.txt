@@ -1,0 +1,15 @@
+Un dispositif, un objet ou un procédé est dit “opensource” lorsque son fonctionnement, ses plans et ses principes de production sont accessibles gratuitement par toustes. L’échange des documents permettant sa compréhension, sa reproduction ou sa confection est libre. Ces documents sont souvent communiqués par des moyens numériques sur des plateformes ouvertes, autogérées par des communautés de “makers” et de “hackers”. Ces derniers partagent des compétences, des espaces (les fablabs ou hackerspaces), des outils et un intérêt pour la confection, la réparation et la récupération. L’accessibilité des dispositifs produits par les communautés makers et partagés de manière “opensource” permet aussi aux usager·e·s de participer à l’amélioration du dispositif, qui peut être augmenté et corrigé au fil des utilisations. Les usager·e·s s’emparent alors de l’objet et sortent d’une posture passive et dépendante, en devenant des contributeur·ices de sa création. La production opensource repose donc sur des principes de collaboration et de partage horizontaux, qui remettent en cause la notion de propriété privée où nous achetons des produits finis que nous ne modifions pas.
+
+
+{L’Open Design s'appuie sur l'idée de participation et donne naissance à des pratiques dérivées qui ont pour objectif de simplifier l'accès à des mondes techniques complexes, mais qui maintiennent parfois l'usager à distance, dans une promesse de « démocratisation » qui reste parfois superficielle ou ambivalente.}
+
+BOSQUÉ, Camille, 2021. {Open design. Fabrication numérique et mouvement maker}. Paris : Éditions B42
+
+{Le premier principe constitutif de l'éthique hacker et le suivant : “toute information doit être libre”. C'est là une des conditions nécessaires à l'amélioration de la créativité collective. [...] L'idée directrice est que les systèmes ouverts favorisent le libre-échange de l'information, à la différence des bureaucraties (qu'il s'agisse d'une entreprise, d'une administration ou d'une université).}
+
+LALLEMENT, Michel, 2015. {L’âge du faire. Hacking, travail, anarchie.}. Paris : Seuil
+
+
+{Il y a beaucoup la notion d'accessibilité dans les low-tech. C’est pour ça qu’il y a beaucoup de fichiers “opensource”, c'est une communauté derrière ça qui recense toutes les techniques qui existent dans le monde pour les intégrer à notre culture qui est beaucoup plus consommatrice de high-tech.}
+
+Camille Chapuis et Céline Déprez (Supersolide) - sixième épisode

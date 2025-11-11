@@ -121,8 +121,6 @@ document.addEventListener('DOMContentLoaded', () => {
       { name: 'Texte1.txt', className: 'apropos-block' },
       { name: 'Titre2.txt', className: 'apropos-title' },
       { name: 'Texte2.txt', className: 'apropos-block' },
-      { name: 'Titre3.txt', className: 'apropos-title' },
-      { name: 'Texte3.txt', className: 'apropos-block' }
     ];
 
     function renderSections(sections) {
